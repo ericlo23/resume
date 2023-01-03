@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 $item-gap: 20px;
 $dot-length: 10px;
 
@@ -39,7 +41,7 @@ $dot-length: 10px;
       content: "";
       margin: 0 auto;
       background-color: grey;
-      transform: translate(-10px, (30 - $dot-length) / 2);
+      transform: translate(-10px, math.div(30 - $dot-length, 2));
       color-adjust: exact;
     }
   }
