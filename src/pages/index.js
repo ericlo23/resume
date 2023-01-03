@@ -6,7 +6,7 @@ import Skill from "../components/Skill"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { profile, skills, experiences, education } from "../constants"
+import { profile, skills, experiences, education } from "../contents"
 import Experience from "../components/Experience"
 
 const IndexPage = () => (
