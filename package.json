@@ -2,11 +2,8 @@
   "name": "resume",
   "version": "1.0.0",
   "private": true,
-  "description": "resume",
-  "author": "Eric Lo",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "Resume - Eric Lo",
+  "author": "Eric Lo <eric.lo.7823@gmail.com>",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
