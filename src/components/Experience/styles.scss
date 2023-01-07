@@ -1,13 +1,12 @@
-@use 'sass:math';
+@use "sass:math";
 
 $item-gap: 20px;
 $dot-length: 10px;
 
 .experience-item {
-
   page-break-inside: avoid;
   display: grid;
-  
+
   grid-template:
     "bullet name"
     "bullet location"
@@ -62,7 +61,8 @@ $dot-length: 10px;
     margin-bottom: 12px;
   }
 
-  .desc, .sub-desc {
+  .desc,
+  .sub-desc {
     grid-area: desc;
 
     white-space: pre-line;
@@ -74,7 +74,7 @@ $dot-length: 10px;
 
   .sub-desc {
     grid-area: sub-desc;
-    
+
     font-size: small;
     font-style: italic;
   }

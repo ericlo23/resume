@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 
-import Profile from "../components/Profile"
-import Skill from "../components/Skill"
+import Profile from "../components/Profile";
+import Skill from "../components/Skill";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
-import { profile, skills, experiences, education } from "../contents"
-import Experience from "../components/Experience"
+import { profile, skills, experiences, education } from "../contents";
+import Experience from "../components/Experience";
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +15,6 @@ const IndexPage = () => (
     <Experience experiences={experiences} />
     <Experience title="Education" experiences={education} />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

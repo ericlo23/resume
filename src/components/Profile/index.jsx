@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import "./styles.scss"
+import "./styles.scss";
 
 const Profile = ({ name, title, phone, email, address }) => {
   return (
@@ -17,7 +17,7 @@ const Profile = ({ name, title, phone, email, address }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

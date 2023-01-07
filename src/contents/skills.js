@@ -55,4 +55,4 @@ export const skills = [
     name: "Git",
     score: 4,
   },
-]
+];

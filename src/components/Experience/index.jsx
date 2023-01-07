@@ -1,18 +1,18 @@
-import React from "react"
+import React from "react";
 
-import "./styles.scss"
+import "./styles.scss";
 
 const Experience = ({ title, experiences }) => {
   return (
     <div className="block experience-block">
       <h2>{title || "Experience"}</h2>
       <hr />
-      {experiences.map(exp => (
+      {experiences.map((exp) => (
         <ExperienceItem {...exp} key={exp.name} />
       ))}
     </div>
-  )
-}
+  );
+};
 
 const ExperienceItem = ({ name, location, desc, subDesc }) => {
   return (
@@ -23,7 +23,7 @@ const ExperienceItem = ({ name, location, desc, subDesc }) => {
       <div className="desc">{desc}</div>
       <div className="sub-desc">{subDesc}</div>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
