@@ -4,13 +4,6 @@ export const experiences = [
     location: "Taipei, Taiwan",
   },
   {
-    name: "New Garden Co. Ltd., Front-end Engineer, Dec. 2019 ~ Dec. 2019",
-    location: "Taipei, Taiwan",
-    desc: "● Developed a CMS platform.",
-    subDesc: `Skills:
-    React, Redux, Firebase, SASS`,
-  },
-  {
     name: "Arasens Inc., Front-end Engineer, Apr. 2019 ~ Oct. 2019",
     location: "Taipei, Taiwan",
     desc: `● Developed a service platform to monitor vessels, schedule maintenance events, configure and watch alert notifications, and provide statistics.
