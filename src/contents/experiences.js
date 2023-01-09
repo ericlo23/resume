@@ -1,6 +1,14 @@
 export const experiences = [
   {
-    name: "aetherAI Co. Ltd., Front-end Engineer, Apr. 2020 ~",
+    name: "TranX.io Co. Ltd., Tech Lead, Jul. 2022 ~",
+    location: "Taipei, Taiwan",
+  },
+  {
+    name: "aetherAI Co. Ltd., Front-end Team Lead, Feb. 2022 ~ Jul. 2022",
+    location: "Taipei, Taiwan",
+  },
+  {
+    name: "aetherAI Co. Ltd., Front-end Engineer, Apr. 2020 ~ Feb. 2022",
     location: "Taipei, Taiwan",
   },
   {
