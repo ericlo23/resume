@@ -15,11 +15,11 @@ export const experiences = [
     location: "Taipei, Taiwan",
     desc: `● Developed the front-end of digital pathology and medical imaging system.
     ● Developed the viewer of low-dose CT images.
-    ● Developed the front-end of digital pathology platform.
+    ● Developed the front-end of the digital pathology platform.
     ● Initiated the UI library.
     ● Mentored junior colleagues.`,
     subDesc: `Skills:
-    Angular, Three.js, GraphQL, AWS, Git, Zeplin, Webpack, SASS`,
+    Angular, Three.js, GraphQL, Git, Zeplin, Webpack, SASS`,
   },
   {
     name: "Arasens Inc., Front-end Engineer, Apr. 2019 ~ Oct. 2019",
