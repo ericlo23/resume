@@ -22,7 +22,7 @@ export const experiences = [
     ● Initiated the UI library.
     ● Mentored junior colleagues.`,
     subDesc: `Skills:
-    Angular, SASS, Three.js, GraphQL, Git, Figma`,
+    Angular, Three.js, GraphQL, Git, Figma`,
   },
   {
     name: "Arasens Inc., Front-end Engineer, Apr. 2019 ~ Oct. 2019",
@@ -32,7 +32,7 @@ export const experiences = [
     ● Built the corporate website from scratch.
     ● Maintain back-end services.`,
     subDesc: `Skills:
-    React, LESS, React Native, Webpack, NodeJS, PostgreSQL, AWS, Git, Zeplin`,
+    React, React Native, Webpack, NodeJS, PostgreSQL, AWS, Git, Zeplin`,
   },
   {
     name: "Contribulet Inc., Front-end Engineer, Oct. 2017 ~ Apr. 2019",
@@ -42,7 +42,7 @@ export const experiences = [
     ● Built a mobile application for donors to purchase vouchers from scratch.
     ● Built a POS application for merchants to redeem vouchers from scratch.`,
     subDesc: `Skills:
-    React, Angular, SASS, Cordova, Webpack, Git, Zeplin`,
+    React, Angular, Cordova, Webpack, Git, Zeplin`,
   },
   {
     name: "Dynacolor Inc, Software Engineer, Mar. 2017 ~ Sep. 2017",
