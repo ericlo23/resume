@@ -2,6 +2,9 @@ export const experiences = [
   {
     name: "TranX.io Co. Ltd., Tech Lead, Jul. 2022 ~",
     location: "Taipei, Taiwan",
+    desc: `● Develop the data cloud platform.`,
+    subDesc: `Skills:
+    React, NodeJS, GraphQL, AWS, Git, Figma`,
   },
   {
     name: "aetherAI Co. Ltd., Front-end Team Lead, Feb. 2022 ~ Jul. 2022",
