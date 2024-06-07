@@ -8,10 +8,9 @@ $dot-length: 10px;
   display: grid;
 
   grid-template:
-    "bullet name"
-    "bullet location"
-    "bullet desc"
-    "bullet sub-desc" / auto 1fr;
+    "bullet name period"
+    "bullet desc desc"
+    "bullet sub-desc sub-desc" / auto 1fr;
 
   .bullet {
     grid-area: bullet;
@@ -48,17 +47,17 @@ $dot-length: 10px;
   .name {
     grid-area: name;
 
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.4;
     margin-bottom: 4px;
   }
 
-  .location {
-    grid-area: location;
+  .period {
+    grid-area: period;
 
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 4px;
   }
 
   .desc,

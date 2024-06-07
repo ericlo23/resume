@@ -8,10 +8,9 @@ const Profile = ({ name, title, phone, email, address }) => {
   return (
     <div className="block profile-block">
       <div className="text">
-        <h1>{name}</h1>
+        <h2>{name}</h2>
+        <h4>{title}</h4>
         <div>
-          {title}
-          <Divider />
           {address}
           <Divider />
           <a href={`tel:${phone}`}>{phone}</a>

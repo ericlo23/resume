@@ -5,7 +5,7 @@ import "./styles.scss";
 const Experience = ({ title, experiences }) => {
   return (
     <div className="block experience-block">
-      <h2>{title || "Experience"}</h2>
+      <h4>{title || "Experience"}</h4>
       <hr />
       {experiences.map((exp) => (
         <ExperienceItem {...exp} key={exp.name} />
@@ -14,12 +14,12 @@ const Experience = ({ title, experiences }) => {
   );
 };
 
-const ExperienceItem = ({ name, location, desc, subDesc }) => {
+const ExperienceItem = ({ name, period, location, desc, subDesc }) => {
   return (
     <div className="experience-item">
       <div className="bullet" />
-      <h3 className="name">{name}</h3>
-      <div className="location">{location}</div>
+      <h5 className="name">{name}</h5>
+      <h5 className="period">{location}, {period}</h5>
       <div className="desc">{desc}</div>
       <div className="sub-desc">{subDesc}</div>
     </div>

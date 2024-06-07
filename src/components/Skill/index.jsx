@@ -6,12 +6,12 @@ import "./styles.scss";
 const Skill = ({ skills }) => {
   return (
     <div className="block skill-block">
-      <h2>
+      <h4>
         Skill{" "}
         <span className="annotation">
           *Stars represent relative skill levels.
         </span>
-      </h2>
+      </h4>
       <hr />
 
       <div className="row">
