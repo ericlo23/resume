@@ -1,7 +1,7 @@
 export const profile = {
   name: "羅元鴻 Eric Lo",
-  title: "Software Engineer majoring in Front-end",
+  title: "Software and AI Engineer",
   phone: "+886 978878323",
-  email: "eric.lo.7823@gmail.com",
+  email: "onlyeric23@gmail.com",
   address: "Taipei, Taiwan",
 };
