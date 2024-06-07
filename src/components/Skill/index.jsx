@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  TiStarFullOutline,
-  TiStarHalfOutline,
-  TiStarOutline,
-} from "react-icons/ti";
+import { TiStarFullOutline, TiStarOutline } from "react-icons/ti";
 
 import "./styles.scss";
 
@@ -41,14 +37,12 @@ const repeat = (num, Comp) => {
 
 const SkillItem = ({ name, score }) => {
   const numFull = Math.trunc(score);
-  const numHalf = score * 10 - numFull * 10 ? 1 : 0;
-  const numEmpty = 5 - numFull - numHalf;
+  const numEmpty = 3 - numFull;
   return (
     <div className="skill-item">
       <div className="name">{name}</div>
       <div className="score">
         {repeat(numFull, TiStarFullOutline)}
-        {repeat(numHalf, TiStarHalfOutline)}
         {repeat(numEmpty, TiStarOutline)}
       </div>
     </div>
