@@ -14,12 +14,14 @@ const Experience = ({ title, experiences }) => {
   );
 };
 
-const ExperienceItem = ({ name, period, location, desc, subDesc }) => {
+const ExperienceItem = ({ name, period, title, location, desc, subDesc }) => {
   return (
     <div className="experience-item">
       <div className="bullet" />
-      <h5 className="name">{name}</h5>
-      <h5 className="period">{location}, {period}</h5>
+      <h5 className="name">
+        {[title, name, location].filter(Boolean).join(", ")}
+      </h5>
+      <h5 className="period">{period}</h5>
       <div className="desc">{desc}</div>
       <div className="sub-desc">{subDesc}</div>
     </div>

@@ -1,6 +1,7 @@
 export const experiences = [
   {
-    name: "TranX.io Co. Ltd., Technical Lead",
+    name: "TranX.io Co. Ltd.",
+    title: "Technical Lead",
     period: "Jul. 2022 ~ On-going",
     location: "Taipei, Taiwan",
     desc: `Responsible for company-wide technical decisions and development.
@@ -15,7 +16,8 @@ export const experiences = [
     subDesc: `AI Application Development, Web Development, React, NodeJS, AWS, MQTT`,
   },
   {
-    name: "aetherAI Co. Ltd., Front-end Team Lead",
+    name: "aetherAI Co. Ltd.",
+    title: "Front-end Team Lead",
     period: "Feb. 2022 ~ Jul. 2022",
     location: "Taipei, Taiwan",
     desc: `Responsible for front-end team-wide decisions and management.
@@ -26,7 +28,8 @@ export const experiences = [
     • Continued jobs as a front-end engineer.`,
   },
   {
-    name: "aetherAI Co. Ltd., Front-end Engineer",
+    name: "aetherAI Co. Ltd.",
+    title: "Front-end Engineer",
     period: "Apr. 2020 ~ Feb. 2022",
     location: "Taipei, Taiwan",
     desc: `Responsible for front-end development.
@@ -38,7 +41,8 @@ export const experiences = [
     subDesc: `Web Development, Angular, Three.js`,
   },
   {
-    name: "Arasens Inc., Front-end Engineer",
+    name: "Arasens Inc.",
+    title: "Front-end Engineer",
     period: "Apr. 2019 ~ Oct. 2019",
     location: "Taipei, Taiwan",
     desc: `Responsible for front-end development.
@@ -48,7 +52,8 @@ export const experiences = [
     subDesc: `Web Development, React, React Native`,
   },
   {
-    name: "Contribulet Inc., Front-end Engineer",
+    name: "Contribulet Inc.",
+    title: "Front-end Engineer",
     period: "Oct. 2017 ~ Apr. 2019",
     location: "San Jose, USA (Remote)",
     desc: `Responsible for front-end and mobile development.
@@ -60,7 +65,8 @@ export const experiences = [
     subDesc: `Web Development, React, Angular, Cordova`,
   },
   {
-    name: "Dynacolor Inc., Software Engineer",
+    name: "Dynacolor Inc.",
+    title: "Software Engineer",
     period: "Mar. 2017 ~ Sep. 2017",
     location: "Taipei, Taiwan",
     desc: `Responsible for implementing well-defined tasks.
