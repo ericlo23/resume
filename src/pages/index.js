@@ -11,9 +11,9 @@ import Experience from "../components/Experience";
 const IndexPage = () => (
   <Layout>
     <Profile {...profile} />
-    <Skill skills={skills} />
     <Experience experiences={experiences} />
     <Experience title="Education" experiences={education} />
+    <Skill skills={skills} />
   </Layout>
 );
 

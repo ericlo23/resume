@@ -1,23 +1,9 @@
 .skill-block {
-  .annotation {
-    font-size: xx-small;
-    font-style: italic;
-    font-weight: normal;
-  }
+  font-size: 14px;
 }
 
 .skill-block .row {
   flex: 1;
-  column-count: 3;
-  column-gap: 60px;
-
-  @media (max-width: 1024px) {
-    column-count: 2;
-  }
-
-  @media (max-width: 480px) {
-    column-count: 1;
-  }
 }
 
 .skill-block .row .col:not(:last-child) {
