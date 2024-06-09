@@ -2,7 +2,7 @@ export const experiences = [
   {
     name: "TranX.io Co. Ltd.",
     title: "Technical Lead",
-    period: "Jul. 2022 ~ On-going",
+    period: "Jul. 2022 ~ Present",
     location: "Taipei, Taiwan",
     desc: `Responsible for company-wide technical decisions and development.
     • Participated in developing product strategies.
@@ -25,7 +25,7 @@ export const experiences = [
     • Participated in planning semi-annual goals.
     • Handled cross-team communication.
     • Hosted a weekly front-end study group.
-    • Continued jobs as a front-end engineer.`,
+    • Continued work as a front-end engineer.`,
   },
   {
     name: "aetherAI Co. Ltd.",
