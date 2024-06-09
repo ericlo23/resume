@@ -11,8 +11,8 @@ export const experiences = [
     • Designed and developed a pipeline for continuously training and deploying ML services.
     • Designed and developed a generative AI chatbot for data analysis.
     • Designed and automated data extraction pipelines for enterprises.
-    • Mentored junior colleagues and maintained codebase quality.
-    • Automated infrastructure deployment.`,
+    • Automated infrastructure deployment.
+    • Mentored junior colleagues and maintained codebase quality.`,
     subDesc: `AI Application Development, Web Development, React, NodeJS, AWS, MQTT`,
   },
   {
