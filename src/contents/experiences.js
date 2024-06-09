@@ -8,7 +8,7 @@ export const experiences = [
     • Participated in developing product strategies.
     • Conducted requirement interviews with enterprises.
     • Developed a data platform to help enterprises analyze data. 
-    • Designed and developed a pipeline for continuously training and deploying machine learning services.
+    • Designed and developed a pipeline for continuously training and deploying ML services.
     • Designed and developed a generative AI chatbot for data analysis.
     • Designed and automated data extraction pipelines for enterprises.
     • Mentored junior colleagues and maintained codebase quality.
@@ -59,7 +59,7 @@ export const experiences = [
     desc: `Responsible for front-end and mobile development.
     • Developed a platform for external users to participate in charity events and purchase vouchers.
     • Refactored the platform from a static website to a modern web application.
-    • Developed a mobile application from scratch for external users with the same functions as the platform.
+    • Developed a mobile application from scratch with the same functions as the platform.
     • Developed a management dashboard for internal users to organize charity events and list vouchers.
     • Developed a POS application from scratch for merchants to redeem vouchers.`,
     subDesc: `Web Development, React, Angular, Cordova`,

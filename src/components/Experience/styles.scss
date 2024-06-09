@@ -47,7 +47,7 @@ $dot-length: 10px;
   .name {
     grid-area: name;
 
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
     margin-bottom: 4px;
   }
@@ -55,7 +55,7 @@ $dot-length: 10px;
   .period {
     grid-area: period;
 
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
     margin-bottom: 4px;
   }
@@ -68,13 +68,13 @@ $dot-length: 10px;
   }
 
   .desc {
-    font-size: smaller;
+    font-size: 14px;
   }
 
   .sub-desc {
     grid-area: sub-desc;
 
-    font-size: small;
+    font-size: 12px;
     font-style: italic;
   }
 }
